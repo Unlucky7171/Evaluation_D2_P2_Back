@@ -8,5 +8,27 @@
             },
             "enableLiveMetricsFilters": true
         }
-    }
+    },
+    "extensions": {
+        "swagger": {
+            "enabled": true
+        }
+    },
+    "functions": [
+        {
+            "scriptFile": "../bin/EventManagement.Api.dll",
+            "entryPoint": "EventManagement.Api.AddEventFunction.Run",
+            "disabled": false,
+            "bindings": [
+                {
+                    "authLevel": "function",
+                    "type": "httpTrigger",
+                    "direction": "in",
+                    "name": "req",
+                    "methods": ["post"],
+                    "route": "events"
+                }
+            ]
+        }
+    ]
 }

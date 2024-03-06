@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{CA4BD4ED-2700-4557-9913-135ADC7BFD05}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="EventManagement.BLL/Class1.cs">
+    <Files>
+      <File FileName="EventManagement.BLL/Class1.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EvaluationBackEnd2" expanded="True">
+            <Node name="EventManagement.BLL" expanded="True">
+              <Node name="Class1.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.EventManagement.Api PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
